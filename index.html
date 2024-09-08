@@ -1,47 +1,83 @@
-<!--https://github.com/AQUINOResieR/BSCS-2H/edit/main/index.html#L1C0-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <title>activtiy</title>
-    <h1><strong>INTORDUCTION</strong></h1>
-    <img src="resie.jpg" width="100" height="100">
-    <h2><strong>Aquino, Resie R.</strong></h2>
-    <strong>BSCS 2H</strong>
-<hr>
-<h2>About Me</h2>
-
-<p>
-    Hi im Resie R. Aquino im taken in Bachelor Sciece and Computer Science. <br>
-   Im a hardworking and im looking forward to being good daugther and student.
-</p>
-<ol>
-    <a href="Hobbies.html"><li>HOBBIES</li></a>
-    <a href="Skills.html"><li>SKILLS</li></a>
-    <a href="Technology.html"><li>Tools and Technology Stock</li></a>
-</ol>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <main>
+        <h1>FILIPINO DISHES</h1>
+        <h2>MENU</h2>
+    </main>
+    
+    <article>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Adobo.jpg" width="150" height="150">
+                <div>
+                    <h3>ADOBO ROYALE<br>Php150.00</h3>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="sinigang.jpg" width="150" height="150">
+                <div>
+                    <h3>SINIGANG SYMPHONY <br>Php100.00</h3>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="pusit.jpg" width="150" height="150">
+                <div>
+                    <h3>SPICY SQUID DELIGHT<br>Php150.00</h3>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="alimango.jpg" width="150" height="150">
+                <div>
+                    <h3>CREAMY SHRIMP<br>Php200.00</h3>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    <h2>VISIT OUR WEBSITE</h2>
+    <h4>Tambo, Lipa City</h4>
+
+    <h1>Registration Form</h1>
+    <h4>Please Fill Out This Form</h4>
+    
     <form>
-        <label for="name">NAME</label><br>
-        <input id="name" type="text"><br>
-        <label for="email">EMAIL</label><br>
-        <input id="email" type="text"><br>
-        <label for="message">YOUR MESSAGE</label><br>
-        <textarea id="message"></textarea><br>
-        <label for="country">Country</label>
-        <select id="country">
-            <option value="JAPAN">JAPAN</option>
-            <option value="south korea">SOUTH KOREA</option>
-            <option value="India">INDIA</option>
-        </select>
-        <br>
-        <label>Job Type</label><br>
-        <input type="radio" name="jobtype" value="parttime" id="parttime"/>
-        <label for="parttime">Part Time</label><br>
-        <input type="radio" name="jobtype" value="fulltime" id="fulltime"/>
-        <label for="fulltime">Full Time</label><br>
+        <label>Enter Your First Name:</label><br>
+        <input type="text"><br>
+        <label>Enter Your Last Name:</label><br>
+        <input type="text"><br>
+        <label>Enter Your Email:</label><br>
+        <input type="text"><br>
+        <label>Create A New Password:</label><br>
+        <input type="text"><br>
+        <label>Account type (required)</label><br>
+        <input type="radio" name="account_type" value="Personal" id="Personal">
+        <label for="Personal">Personal</label><br>
+        <input type="radio" name="account_type" value="Business" id="Business">
+        <label for="Business">Business</label><br>
+        <label>Input Your Age (years):</label><br>
+        <input type="text"><br>
+        <label for="upload">Upload A Profile Picture</label><br>
+        <input type="file"><br>
+        <label>How do you hear about us?</label><br>
+        <select>
+            <option value="SATISFIED">SATISFIED</option>
+            <option value="VERY SATISFIED">VERY SATISFIED</option>
+            <option value="GOOD">GOOD</option>
+            <option value="NOT GOOD">NOT GOOD</option>
+        </select><br>
+        <label for="provide">Provide a Bio</label><br>
+        <textarea id="provide"></textarea><br>
+        <input type="checkbox">
+        <label>I accept the terms and conditions</label><br>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
