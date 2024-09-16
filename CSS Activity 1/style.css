@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(226, 8, 135, 0.514);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: black;
+    font-style: inherit;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px; 
+}
+.menu-item {
+    text-align: center;
+    flex: 1 1 200px; 
+    max-width: 200px; 
+}
+
+.menu-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+footer {
+    margin-top: 20px;
+}
